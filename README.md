@@ -7,9 +7,9 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Disable or loosen protection and logging features that can add overhead. ✔️
-> 2. Optimizes memory management parameters such as cache write limits, memory compaction, and swap settings to give games optimal memory. ✔️
-> 3. Adjust restrictions on namespace creation to support better isolation and performance in container or application environments. ✔️
+> 1. Disabling the kernel panic feature. ✔️
+> 2. Remove access restrictions to kernel logs and kernel pointers. ✔️
+> 3. And some other kernel settings that optimize performance. ✔️
 <hr/>
 
 > [!TIP]
