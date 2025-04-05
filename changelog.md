@@ -9,6 +9,4 @@
 > - Waiting for the boot system is finished before applying the configuration.
 > - Arrangements related to handling panic, printk, and security parameters.
 > - Memory management related settings, such as `dirty_ratio`, `swappiness`, etc.
-> - Settings related to namespace restrictions.
-> - Adjust parameter file access rights before writing the configuration.
 ---
