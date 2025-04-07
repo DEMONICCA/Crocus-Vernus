@@ -7,9 +7,9 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Disabling the kernel panic feature. ✔️
-> 2. Allows memory allocations that exceed physical capacity. ✔️
-> 3. And some other kernel settings that optimize performance. ✔️
+> 1. Controls kernel response to errors and logging behavior. ✔️
+> 2. Sets memory allocation policies, dirty data management, and swap usage. ✔️
+> 3. Adjust parameters for system stability or special needs such as debugging or performance optimization. ✔️
 <hr/>
 
 > [!TIP]
