@@ -8,9 +8,8 @@
 > [!IMPORTANT]
 > Features 🚀:
 > 1. Disabling the kernel panic feature. ✔️
-> 2. Remove access restrictions to kernel logs and kernel pointers. ✔️
+> 2. Allows memory allocations that exceed physical capacity. ✔️
 > 3. And some other kernel settings that optimize performance. ✔️
-> 4. Allows memory allocations that exceed physical capacity. and several other kernel settings that optimize performance. ✔️
 <hr/>
 
 > [!TIP]
