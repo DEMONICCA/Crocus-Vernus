@@ -2,6 +2,24 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [2.0.0]
+>
+> - Updated the shebang line to use `#!/bin/sh` instead of `#!/system/bin/sh` to increase portability and POSIX compatibility.
+> - Removed the boot waiting loop that delayed execution until the system fully booted, allowing faster initialization.
+> - Introduced automatic detection of SDK version and CPU hardware to conditionally execute the script only on compatible Qualcomm-based devices.
+> - Replaced hardcoded multi-line configuration blocks with array-based structures, significantly simplifying parameter declarations and improving scalability.
+> - Removed the old `update_param()` function that echoed values directly, and replaced it with a more flexible function that safely updates sysctl files using proper permissions.
+> - Implemented a new loop-based system to apply kernel and VM parameters, improving performance and maintainability.
+> - Added a `check_device()` function to verify that the script only runs on supported SDK versions and Qualcomm chipsets, improving safety.
+> - Introduced `tune_governor()` function to dynamically detect and tune the CPU frequency scaling governor parameters for all cores.
+> - Set performance-oriented CPU tuning values such as `hispeed_freq`, `go_hispeed_load`, and `sampling_rate`, targeting higher responsiveness.
+> - Removed unused and redundant variables to clean up the script logic and minimize resource use.
+> - Added a modular `main()` function to clearly define execution flow, making the script easier to read and extend.
+> - Overall, this version improves system safety, performance tuning accuracy, script modularity, and readiness for future enhancements.
+> - Add `verify.sh` to automate the `integrity` check.
+> - Code fixes to `service.sh` & updates `customize.sh` for better compatibility and efficiency.
+---
+
 > [1.0.0]
 >
 > - Initial release 
