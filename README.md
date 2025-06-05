@@ -7,9 +7,13 @@
 
 > [!IMPORTANT]
 > Features 🚀:
-> 1. Controls kernel response to errors and logging behavior. ✔️
-> 2. Sets memory allocation policies, dirty data management, and swap usage. ✔️
-> 3. Adjust parameters for system stability or special needs such as debugging or performance optimization. ✔️
+> 1. Controls kernel response to errors and system logging ✔️  
+> 2. Manages memory policies, dirty data, and swap usage ✔️  
+> 3. Adjusts parameters for stability, debugging, or performance ✔️  
+> 4. Runs only on Qualcomm devices with SDK 29–35 ✔️  
+> 5. Automatically tunes CPU governors for better performance ✔️  
+> 6. Uses arrays and loops for efficient configuration ✔️  
+> 7. Modular code structure for easy maintenance and expansion ✔️
 <hr/>
 
 > [!TIP]
